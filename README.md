@@ -47,3 +47,12 @@ A centralized learning platform built with **Java**, **Spring Boot**, and **Thym
 
 **Feedback System**  
 ![Feedback System](screenshots/feedback.png)
+
+
+
+## 👩‍💻 Author
+**Catherin Raichal I**
+
+📧 Email: [raichal.catherin@gmail.com](mailto:raichal.catherin@gmail.com)  
+ 
+🔗 GitHub: [Github](https://github.com/catherin-raichal-i/)  | LinkedIn: [Linkedin](https://www.linkedin.com/in/catherin-raichal/)
