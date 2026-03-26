@@ -2,7 +2,7 @@
 
 A centralized learning platform built with **Java**, **Spring Boot**, and **Thymeleaf** where students can access course materials, submit assignments, attend video sessions, and receive feedback efficiently.
 
---
+
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ A centralized learning platform built with **Java**, **Spring Boot**, and **Thym
 - 💬 **Feedback System** – Instructors provide feedback on submissions  
 - 📊 **Dashboard** – Personalized view of courses, tasks, and feedback  
 
---
+
 
 ## 🛠 Technology Stack
 
@@ -23,6 +23,6 @@ A centralized learning platform built with **Java**, **Spring Boot**, and **Thym
 - **Build Tool:** Maven  
 - **Version Control:** Git  
 
---
+
 
 ## 🏗 Project Structure
