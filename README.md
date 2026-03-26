@@ -36,5 +36,5 @@ A centralized learning platform built with **Java**, **Spring Boot**, and **Thym
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/learning-hub.git](https://github.com/catherin-raichal-i/learning-hub)
+git clone https://github.com/catherin-raichal-i/learning-hub
 cd learning-hub
