@@ -31,10 +31,19 @@ A centralized learning platform built with **Java**, **Spring Boot**, and **Thym
 
 - Java 17 or above  
 - Maven 3.8+  
-- MySQL/PostgreSQL (optional for production)  
+- MySQL/PostgreSQL (optional for production)
 
-### Clone the Repository
 
-```bash
-git clone https://github.com/catherin-raichal-i/learning-hub
-cd learning-hub
+## 🖼 Screenshots
+
+**Dashboard**  
+![Dashboard](screenshots/dashboard.png)
+
+**Assignment Submission**  
+![Assignment Submission](screenshots/assignment.png)
+
+**Video Session**  
+![Video Session](screenshots/video-session.png)
+
+**Feedback System**  
+![Feedback System](screenshots/feedback.png)
