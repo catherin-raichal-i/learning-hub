@@ -4,6 +4,7 @@ import com.lms.lms.entity.Course;
 import com.lms.lms.entity.User;
 import com.lms.lms.repository.CourseRepository;
 import com.lms.lms.repository.UserRepository;
+import com.lms.lms.repository.SubmissionRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,6 +24,9 @@ public class AdminController {
 
     @Autowired
     private CourseRepository courseRepository;
+
+    @Autowired
+    private SubmissionRepository submissionRepository;
 
     @GetMapping("/admin/dashboard")
     public String dashboard(Model model) {
@@ -81,6 +85,9 @@ public class AdminController {
                 course.setTeacher(null);
                 courseRepository.save(course);
             }
+            // Delete all submissions by this student to avoid foreign key constraint violations
+            List<Submission> submissions = submissionRepository.findByStudent(user);
+            submissionRepository.deleteAll(submissions);
         }
 
         userRepository.delete(user);
